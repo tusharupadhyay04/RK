@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header main foter layout</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        height: 100vh;
+        gap: 10px;
+        grid-template-rows: auto 1fr auto;
+
+    }
+    .header{
+        background-color: yellow;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sidebar{
+        background-color: rgb(122, 243, 122);
+        grid-row: sidebar;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        background-color: yellow;
+        color: brown;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="sidebar">
+            <ul>
+                <li>Gallery</li>
+                <li>Gallery</li>
+                <li>Gallery</li>
+                <li>Gallery</li>
+                <li>Gallery</li>
+            </ul>
+        </div>
+        <div class="main">Main</div>
+        <div class="footer">Footer</div>
+
+    </div>
+</body>
+</html>

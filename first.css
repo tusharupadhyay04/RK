@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol li{
+    font-style: italic;
+    
+
+}
+p{
+    color: rgb(47, 82, 110);
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+ul li a{
+    padding: 40px;
+    text-align: center;
+
+    
+}
+.second{
+    color: rgb(103, 89, 163);
+    font-size: 25px;
+    margin: 25px;
+
+}
+#first{
+    color: rgb(163, 89, 89);
+    font-size: 25px;
+    margin: 25px 15px 10px 5px;
+}
+
+div{
+    border: 1px solid black;
+    background-color: yellow;
+    /* padding-top: 150px;
+    padding-bottom: 230px;
+    padding-left: 150px;
+    padding-right: 180px; */
+    padding: 150px 130px 50px 180px;
+    margin: 50px 80px 100px 125px; 
+    font-size: 30px;
+    font-family: cursive;
+}
+.dotted{
+    border-style: dotted;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: cover;
+
+}
+.solid{
+    border-style: solid;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: cover;
+
+}
+.dashed{
+    border-style: dashed;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: cover;
+
+}
+.outset{
+    border-style: outset;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: cover;
+
+}
+.double{
+    border-style: double;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: cover;
+    height: 80px;
+    width: 80px;
+
+}
